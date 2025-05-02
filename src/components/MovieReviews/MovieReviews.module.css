@@ -1,0 +1,32 @@
+.reviewList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.reviewItem {
+    border: 2px solid #338d33;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.reviewAuthor{
+    margin-bottom: 15px;
+}
+
+.content {
+    line-height: 1.5;
+    color: white;
+}
+
+.noReviews {
+    text-align: center;
+    padding: 20px;
+    color: #ccc;
+}
+.span {
+    color: #338d33;
+}
